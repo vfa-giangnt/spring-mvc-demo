@@ -10,8 +10,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.transaction.Transactional;
-
 import gau.nau.account.model.Role;
 import gau.nau.account.model.User;
 import gau.nau.account.repository.UserRepository;
@@ -21,7 +19,6 @@ public class UserDetailServiceImpl implements UserDetailsService {
     private UserRepository userRepository;
 
     @Override
-    @Transactional(readOnly = true)
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepository.findByUsername(username);
         Set<GrantedAuthority> grantedAuthorities = new HashSet<>();
