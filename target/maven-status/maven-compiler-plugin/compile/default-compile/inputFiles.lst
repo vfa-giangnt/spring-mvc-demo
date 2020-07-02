@@ -1,0 +1,11 @@
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/model/User.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/service/UserService.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/service/UserServiceImpl.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/web/UserController.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/repository/UserRepository.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/model/Role.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/service/UserDetailServiceImpl.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/repository/RoleRepository.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/service/SecurityService.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/service/SecurityServiceImpl.java
+/Users/giangnt/Desktop/HelloSpring/src/main/java/gau/nau/account/validator/UserValidator.java
